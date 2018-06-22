@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(array)# code an argument here
   # Your code here
-  array.dup.map(&:capitalize)
+  array.dup.map(&:capitalize).map {|el|el << "!"}
 end
 
 def long_planeteer_calls# code an argument here
