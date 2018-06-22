@@ -1,7 +1,7 @@
 def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
   dwarves.map.with_index do |name, idx|
-    puts "#{idx}. #{name}"
+    puts "#{idx + 1}. #{name}"
   end
 end
 
