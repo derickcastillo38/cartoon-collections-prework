@@ -10,7 +10,8 @@ def summon_captain_planet(array)# code an argument here
   array.dup.map(&:capitalize).map {|el|el << "!"}
 end
 
-def long_planeteer_calls(long_planeteer_calls)# code an argument here
+def long_planeteer_calls(long_planeteer_calls)
+  long_planeteer_calls.any? {|x| x.size > 4}# code an argument here
   # Your code here
 end
 
